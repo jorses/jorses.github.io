@@ -76,3 +76,4 @@ Citation:
 
 - The easiest way to reach me is at jorgeosesgrijalba@gmail.com
 - You can also join the mailing list at semeval-25-t8-tabularqa@googlegroups.com
+- Or follow us at https://x.com/semeval_tableQA
