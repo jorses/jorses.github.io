@@ -28,7 +28,7 @@
     {% endif %}
 
     <link rel="manifest" href="{{ "/manifest.json" | relative_url }}">
-    <meta name="theme-color" content="{{ site.manifest.theme_color | default: '#242e2b' }}"/>
+    <meta name="theme-color" content="{{ site.manifest.theme_color | default: '#181a19' }}"/>
 
     {% if site.css_inline == true %}
       {% include site-styles.html %}
@@ -47,6 +47,7 @@
 
   <body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">
     {% include site-icons.svg %}
+
 
     {{ content }}
 

@@ -137,7 +137,9 @@ body {
 
 .content {
   @include breakpoint(break-1) {
-    width: 62%;
+    width: 70%;
+    margin-left: 0;
+    margin-right: auto;
   }
 }
 
@@ -147,8 +149,9 @@ body {
 
 .aside {
   @include breakpoint(break-1) {
-    max-width: 34%;
-    margin-left: 4%;
+    max-width: 15%;
+    margin-left: 0;
+    margin-right: auto;
     @include flex(1, 0, auto);
     opacity: 0.5;
     transition: opacity .1s;
@@ -158,7 +161,7 @@ body {
     }
     &--left {
       margin-left: 0;
-      margin-right: 4%;
+      margin-right: 0;
       order: -1;
     }
     &:hover {

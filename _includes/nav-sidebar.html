@@ -1,0 +1,7 @@
+<!-- Start of Selection -->
+{% if page.sidebar %}
+{% for n in page.sidebar %}
+   <a href="{{ n.permalink }}">{{ n.page }}</a><br>
+{% endfor %}
+{% endif %}
+<!-- End of Selection -->
