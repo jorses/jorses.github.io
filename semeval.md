@@ -20,7 +20,7 @@ sidebar:
 ---
 # Task 8: QA over Tabular Data
 
-{% include button.html text="Original paper" link="https://huggingface.co/datasets/cardiffnlp/databench/resolve/main/Databench-LREC-Coling-2024.pdf" color="#0366d6" %} {% include button.html text="Data" icon="hf" link="https://huggingface.co/datasets/cardiffnlp/databench" color="#FF9D00"%} {%  include button.html text="News" icon="x" link="https://www.x.com" color="#000000" %}
+{% include button.html text="Original paper" link="https://huggingface.co/datasets/cardiffnlp/databench/resolve/main/Databench-LREC-Coling-2024.pdf" color="#0366d6" %} {% include button.html text="DataBench" icon="hf" link="https://huggingface.co/datasets/cardiffnlp/databench" color="#FF9D00"%} {%  include button.html text="News" icon="x" link="https://www.x.com" color="#000000" %}
 
 Our task consists of Question Answering over Tabular Data making use of the newly developed [DataBench](https://huggingface.co/datasets/cardiffnlp/databench) benchmark.
 DataBench is the first benchmark composed of real-world table datasets from different domains and with large size of rows and columns, as well as a wide variety of data types that allow to assess distinct sort of questions related to each data type.
