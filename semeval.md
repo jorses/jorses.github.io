@@ -29,8 +29,6 @@ the questions of the kind present in DataBench over day-to-day datasets, where t
 The participants will be provided with a dataset and a question to be asked over DataBench, and the developed systems need to provide an answer which would then be compared with a gold standard.
 
 The answer might be achieved through a variety of methods. In our paper we illustrate two different approaches: In-Context Learning and Code Generation. You may use any of these or come up with your own approach.
-Training & Test Data
-You will be able to make use of the whole DataBench suite, while we will release 15 additional datasets with at least 20 questions per set for the testing phase.
 
 ## Subtask I : DataBench QA
 Participants will be provided with a dataset (of any size) and a question over it. The question should be answered using the data from the dataset only.
@@ -60,6 +58,7 @@ Citation:
 }
 ```
 3. No part of the dataset may be shared with third parties.
+4. You will be able to make use of the whole DataBench suite, while we will release 15 additional datasets with at least 20 questions per set for the testing phase.
 
 
 ## Competition Rules
