@@ -16,11 +16,12 @@ sidebar:
       permalink: "#competition-rules"
     - page: Important Dates
       permalink: "#important-dates"
-
+    - page: Help
+      permalink: "#help"
 ---
 # Task 8: QA over Tabular Data
 
-{% include button.html text="Original paper" link="https://huggingface.co/datasets/cardiffnlp/databench/resolve/main/Databench-LREC-Coling-2024.pdf" color="#0366d6" %} {% include button.html text="DataBench" icon="hf" link="https://huggingface.co/datasets/cardiffnlp/databench" color="#FF9D00"%} {%  include button.html text="News" icon="x" link="https://www.x.com" color="#000000" %}
+{%  include button.html text="Join!" icon="email" link="https://www.x.com" color="#e32e12" %} {% include button.html text="Paper" icon="link" link="https://huggingface.co/datasets/cardiffnlp/databench/resolve/main/Databench-LREC-Coling-2024.pdf" color="#0366d6" %} {% include button.html text="DataBench" icon="hf" link="https://huggingface.co/datasets/cardiffnlp/databench" color="#FF9D00"%} {%  include button.html text="News" icon="x" link="https://www.x.com" color="#000000" %} 
 
 Our task consists of Question Answering over Tabular Data making use of the newly developed [DataBench](https://huggingface.co/datasets/cardiffnlp/databench) benchmark.
 DataBench is the first benchmark composed of real-world table datasets from different domains and with large size of rows and columns, as well as a wide variety of data types that allow to assess distinct sort of questions related to each data type.
@@ -28,7 +29,7 @@ DataBench is the first benchmark composed of real-world table datasets from diff
 We propose a task to encourage participants to develop a system that answers
 the questions of the kind present in DataBench over day-to-day datasets, where the answer is either a number, a categorical value, a boolean value or lists of several types. DataBench can be used as a training and validation set, while we will release another test set explicitly compiled for the task competition.
 
-The participants will be provided with a dataset and a question to be asked over DataBench, and the developed systems need to provide an answer which would then be compared with a gold standard.
+The system developed by the participants will be provided by a series of (dataset, question) pairs and will need to provide an answer which would then be compared with a gold standard.
 
 The answer might be achieved through a variety of methods. In our paper we illustrate two different approaches: In-Context Learning and Code Generation. You may use any of these or come up with your own approach.
 
@@ -70,3 +71,8 @@ Citation:
 ## Important Dates
 * Evaluation start **10 January 2025** (Evaluation Blind Set Release)
 * Evaluation end by **31 January 2025**
+
+## Help
+
+- The easiest way to reach me is at jorgeosesgrijalba@gmail.com
+- You can also join the mailing list at semeval-25-t8-tabularqa@googlegroups.com
