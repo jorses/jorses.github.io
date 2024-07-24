@@ -14,6 +14,8 @@ sidebar:
       permalink: "#dataset"
     - page: Rules
       permalink: "#competition-rules"
+    - page: Important Dates
+      permalink: "#important-dates"
 
 ---
 # Task 8: QA over Tabular Data
@@ -35,9 +37,6 @@ Participants will be provided with a dataset (of any size) and a question over i
 
 ## Subtask II: DataBench Lite QA
 The task is essentially the same as the previous subtask, but involves using the sampled version of each dataset with a maximum of 20 rows per dataset (see explanation on DataBench Lite). The question should be answered using the data from the sampled dataset only. For the test set, we will similarly provide a reduced version of each dataset for this subtask. This task is especially relevant when testing for models with a smaller window size.
-Model Choice
-The models you employ must be open source.
-Terms and rules for task
 
 ## Dataset
 
@@ -67,3 +66,7 @@ Citation:
 2. You are not allowed to use external data, since the questions must be answered using the data from the datasets provided.
 3. Models must be open-source
 4. A maximum of 5 submissions per sub-task is allowed
+
+## Important Dates
+* Evaluation start **10 January 2025** (Evaluation Blind Set Release)
+* Evaluation end by **31 January 2025**
