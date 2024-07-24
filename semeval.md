@@ -52,7 +52,7 @@ Citation:
 ```plain
 @inproceedings{oses-etal-2024-databench,
     title = "Question Answering over Tabular Data with DataBench: A Large-Scale Empirical Evaluation of LLMs",
-    author = "Jorge Jorge Osés Grijalba and Luis Alfonso Ureña-López and
+    author = "Jorge Osés Grijalba and Luis Alfonso Ureña-López and
     Eugenio Martínez Cámara and Jose Camacho-Collados",
     booktitle = "Proceedings of LREC-COLING 2024",
     year = "2024",
