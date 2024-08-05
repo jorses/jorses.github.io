@@ -6,6 +6,8 @@ aside: true
 sidebar:
     - page: Task Description
       permalink: "#task-8-qa-over-tabular-data"
+    - page: Sign Up
+      permalink: "#sign-up"
     - page: Subtask I
       permalink: "#subtask-i--databench-qa"
     - page: Subtask II
@@ -34,8 +36,8 @@ The system developed by the participants will be provided by a series of (datase
 
 The answer might be achieved through a variety of methods. In our paper we illustrate two different approaches: In-Context Learning and Code Generation. You may use any of these or come up with your own approach.
 
-## How to submit
-Submissions will be made at our [Codabench Page](https://www.codabench.org/competitions/3360/). Please join our Google Group and follow us on X to be up to date with the latest news on the competition.
+## Sign Up
+You can sign up for the competition and make submissions at our [Codabench Page](https://www.codabench.org/competitions/3360/). Please join our Google Group and follow us on X to be up to date with the latest news on the competition. 
 
 ## Subtask I : DataBench QA
 
