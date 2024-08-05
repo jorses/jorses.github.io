@@ -23,7 +23,7 @@ sidebar:
 ---
 # Task 8: Question Answering on Tabular Data
 
-{%  include button.html text="Google Group" icon="google" link="https://groups.google.com/g/semeval-25-t8-tabularqa" color="#000000" %}{% include button.html text="Paper" icon="link" link="https://aclanthology.org/2024.lrec-main.1179/" color="#0366d6" %} {% include button.html text="DataBench" icon="hf" link="https://huggingface.co/datasets/cardiffnlp/databench" color="#FF9D00"%} {%  include button.html text="News" icon="x" link="https://www.x.com/semeval_tableQA" color="#000000" %}
+{%  include button.html text="Google Group" icon="google" link="https://groups.google.com/g/semeval-25-t8-tabularqa" color="#FF0000" %}{% include button.html text="Paper" icon="link" link="https://aclanthology.org/2024.lrec-main.1179/" color="#0366d6" %} {% include button.html text="DataBench" icon="hf" link="https://huggingface.co/datasets/cardiffnlp/databench" color="#FF9D00"%} {%  include button.html text="News" icon="x" link="https://www.x.com/semeval_tableQA" color="#000000" %}
 
 
 Our [SemEval 2025](https://semeval.github.io/SemEval2025/) task consists of Question Answering over Tabular Data making use of the newly developed [DataBench](https://huggingface.co/datasets/cardiffnlp/databench) benchmark.
