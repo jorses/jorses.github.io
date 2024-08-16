@@ -25,7 +25,6 @@ sidebar:
 
 {%  include button.html text="Google Group" icon="google" link="https://groups.google.com/g/semeval-25-t8-tabularqa" color="#FF0000" %}{% include button.html text="Paper" icon="link" link="https://aclanthology.org/2024.lrec-main.1179/" color="#0366d6" %} {% include button.html text="DataBench" icon="hf" link="https://huggingface.co/datasets/cardiffnlp/databench" color="#FF9D00"%} {%  include button.html text="News" icon="x" link="https://www.x.com/semeval_tableQA" color="#000000" %}
 
-
 Our [SemEval 2025](https://semeval.github.io/SemEval2025/) task consists of Question Answering over Tabular Data making use of the newly developed [DataBench](https://huggingface.co/datasets/cardiffnlp/databench) benchmark.
 DataBench is the first benchmark composed of real-world table datasets from different domains and with large size of rows and columns, as well as a wide variety of data types that allow to assess distinct sort of questions related to each data type.
 
@@ -37,7 +36,8 @@ The system developed by the participants will be provided by a series of (datase
 The answer might be achieved through a variety of methods. In our paper we illustrate two different approaches: In-Context Learning and Code Generation. You may use any of these or come up with your own approach.
 
 ## Sign Up
-You can sign up for the competition and make submissions at our [Codabench Page](https://www.codabench.org/competitions/3360/). Please join our Google Group and follow us on X to be up to date with the latest news on the competition. 
+
+You can sign up for the competition and make submissions at our [Codabench Page](https://www.codabench.org/competitions/3360/). Please join our Google Group and follow us on X to be up to date with the latest news on the competition.
 
 ## Subtask I : DataBench QA
 
@@ -79,8 +79,8 @@ The dataset is available under the following conditions.
 
 ## Important Dates
 
-* Evaluation start **10 January 2025** (Evaluation Blind Set Release)
-* Evaluation end by **31 January 2025**
+* Official Competition start **10 January 2025**
+* Competition end **31 January 2025**
 
 ## Help
 
