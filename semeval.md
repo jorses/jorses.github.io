@@ -1,7 +1,7 @@
 ---
 title: SemEval 2025
 layout: page
-feature_image: "../assets/semeval.png"
+feature_image: "../assets/semevalserio.png"
 aside: true
 sidebar:
     - page: Task Description
