@@ -74,8 +74,7 @@ The dataset is available under the following conditions.
 
 1. You can form teams and work on the task together.
 2. You are not allowed to use external data to answer the question, since the questions must be answered based on the data from the dataset provided along with the question.
-3. Models must be open-source
-4. A maximum of 3 submissions per sub-task is allowed
+3. A maximum of 3 submissions is allowed in the final phase.
 
 ## Important Dates
 
