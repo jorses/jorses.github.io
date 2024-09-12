@@ -1,13 +1,11 @@
 ---
 title: SemEval 2025
 layout: page
-feature_image: "../assets/semevalserio.png"
+feature_image: "../assets/superposed_image.png"
 aside: true
 sidebar:
     - page: Sign Up
       permalink: "#sign-up"
-    - page: Organizers
-      permalink: "#organizers"
     - page: Subtask I
       permalink: "#subtask-i--databench-qa"
     - page: Subtask II
@@ -20,6 +18,9 @@ sidebar:
       permalink: "#important-dates"
     - page: Help
       permalink: "#help"
+    - page: Organizers
+      permalink: "#organizers"
+
 ---
 
 # Task 8: Question Answering on Tabular Data
@@ -41,13 +42,6 @@ The answer might be achieved through a variety of methods. In our paper we illus
 
 You can sign up for the competition and make submissions at our [Codabench Page](https://www.codabench.org/competitions/3360/). Please join our Google Group and follow us on X to be up to date with the latest news on the competition.
 
-## Organizers
-
-- Jorge Osés Grijalba - Graphext
-- L. Alfonso Ureña-López and Eugenio Martínez Cámara - University of Jaén
-- Jose Camacho-Collados - University of Cardiff
-
-![Combined Logos](assets/logos/combined.png)
 
 ## Subtask I : DataBench QA
 
@@ -98,3 +92,10 @@ The dataset is available under the following conditions.
 - You can also join the mailing list at semeval-25-t8-tabularqa@googlegroups.com
 - Or follow us at https://x.com/semeval_tableQA
 
+## Organizers
+
+- Jorge Osés Grijalba - Graphext
+- L. Alfonso Ureña-López and Eugenio Martínez Cámara - University of Jaén
+- Jose Camacho-Collados - University of Cardiff
+
+![Combined Logos](assets/logos/combined.png)
