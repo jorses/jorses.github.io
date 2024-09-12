@@ -81,8 +81,16 @@ The dataset is available under the following conditions.
 * Official Competition start **10 January 2025**
 * Competition end **31 January 2025**
 
+
 ## Help
 
 - The easiest way to reach me is at jorgeosesgrijalba@gmail.com
 - You can also join the mailing list at semeval-25-t8-tabularqa@googlegroups.com
 - Or follow us at https://x.com/semeval_tableQA
+
+## Organizers
+- Jorge Osés Grijalba - Graphext
+- L. Alfonso Ureña-López and Eugenio Martínez Cámara - University of Jaén
+- Jose Camacho-Collados - University of Cardiff
+
+![Combined Logs](assets/logs/combined.png)
