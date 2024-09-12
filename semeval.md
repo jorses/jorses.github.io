@@ -93,4 +93,4 @@ The dataset is available under the following conditions.
 - L. Alfonso Ureña-López and Eugenio Martínez Cámara - University of Jaén
 - Jose Camacho-Collados - University of Cardiff
 
-![Combined Logs](assets/logs/combined.png)
+![Combined Logos](assets/logos/combined.png)
