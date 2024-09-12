@@ -21,11 +21,12 @@ sidebar:
     - page: Help
       permalink: "#help"
 ---
+![Combined Logos](assets/logos/combined.png)
+
 # Task 8: Question Answering on Tabular Data
 
 {% include button.html text="Join!" link="https://www.codabench.org/competitions/3360/" color="#28a745" %}{%  include button.html text="Google Group" icon="google" link="https://groups.google.com/g/semeval-25-t8-tabularqa" color="#FF0000" %}{% include button.html text="Paper" icon="link" link="https://aclanthology.org/2024.lrec-main.1179/" color="#0366d6" %} {% include button.html text="DataBench" icon="hf" link="https://huggingface.co/datasets/cardiffnlp/databench" color="#FF9D00"%} {%  include button.html text="News" icon="x" link="https://www.x.com/semeval_tableQA" color="#000000" %}
 
-![Combined Logos](assets/logos/combined.png)
 
 Our [SemEval 2025](https://semeval.github.io/SemEval2025/) task consists of Question Answering over Tabular Data making use of the newly developed [DataBench](https://huggingface.co/datasets/cardiffnlp/databench) benchmark.
 DataBench is the first benchmark composed of real-world table datasets from different domains and with large size of rows and columns, as well as a wide variety of data types that allow to assess distinct sort of questions related to each data type.
