@@ -6,6 +6,8 @@ aside: true
 sidebar:
     - page: Sign Up
       permalink: "#sign-up"
+    - page: Organizers
+      permalink: "#organizers"
     - page: Subtask I
       permalink: "#subtask-i--databench-qa"
     - page: Subtask II
@@ -21,7 +23,6 @@ sidebar:
 ---
 
 # Task 8: Question Answering on Tabular Data
-![Combined Logos](assets/logos/combined.png)
 
 {% include button.html text="Join!" link="https://www.codabench.org/competitions/3360/" color="#28a745" %}{%  include button.html text="Google Group" icon="google" link="https://groups.google.com/g/semeval-25-t8-tabularqa" color="#FF0000" %}{% include button.html text="Paper" icon="link" link="https://aclanthology.org/2024.lrec-main.1179/" color="#0366d6" %} {% include button.html text="DataBench" icon="hf" link="https://huggingface.co/datasets/cardiffnlp/databench" color="#FF9D00"%} {%  include button.html text="News" icon="x" link="https://www.x.com/semeval_tableQA" color="#000000" %}
 
@@ -39,6 +40,14 @@ The answer might be achieved through a variety of methods. In our paper we illus
 ## Sign Up
 
 You can sign up for the competition and make submissions at our [Codabench Page](https://www.codabench.org/competitions/3360/). Please join our Google Group and follow us on X to be up to date with the latest news on the competition.
+
+## Organizers
+
+- Jorge Osés Grijalba - Graphext
+- L. Alfonso Ureña-López and Eugenio Martínez Cámara - University of Jaén
+- Jose Camacho-Collados - University of Cardiff
+
+![Combined Logos](assets/logos/combined.png)
 
 ## Subtask I : DataBench QA
 
@@ -88,9 +97,4 @@ The dataset is available under the following conditions.
 - The easiest way to reach us is at jorgeosesgrijalba@gmail.com
 - You can also join the mailing list at semeval-25-t8-tabularqa@googlegroups.com
 - Or follow us at https://x.com/semeval_tableQA
-
-## Organizers
-- Jorge Osés Grijalba - Graphext
-- L. Alfonso Ureña-López and Eugenio Martínez Cámara - University of Jaén
-- Jose Camacho-Collados - University of Cardiff
 
