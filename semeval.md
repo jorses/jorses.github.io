@@ -56,8 +56,7 @@ The task is essentially the same as the previous subtask, but involves using the
 
 The dataset is available under the following conditions.
 
-1. It is to be used for non-commercial purposes only.
-2. All publications on research based on the dataset should give credit to the author and the publisher, in particular:
+1. All publications on research based on the dataset should give credit to the author and the publisher, in particular:
    Paper: https://aclanthology.org/2024.lrec-main.1179/
    Citation:
 
@@ -72,8 +71,8 @@ The dataset is available under the following conditions.
 }
 ```
 
-3. Results may not be shared between teams.
-4. You will be able to make use of the whole DataBench suite, while we will release 15 additional datasets with at least 20 questions per set for the testing phase.
+2. Results may not be shared between teams.
+3. You will be able to make use of the whole DataBench suite, while we will release 15 additional datasets with at least 20 questions per set for the testing phase.
 
 ## Competition Rules
 
