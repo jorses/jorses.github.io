@@ -18,7 +18,10 @@ jobs:
 
       - name: Configure npm registry
         run: npm config set registry https://registry.npmjs.org/
-        
+
+      - name: Remove npm auth token if any
+        run: npm config delete //registry.npmjs.org/:_authToken
+
       - name: Install dependencies
         run: npm install
 
