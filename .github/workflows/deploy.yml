@@ -14,20 +14,8 @@ jobs:
         with:
           node-version: 18
 
-      - name: Configure npm registry
-        run: npm config set registry https://registry.npmjs.org/
-
-      - name: Remove npm auth token if any
-        run: npm config delete //registry.npmjs.org/:_authToken
-
-      - name: Clear local .npmrc
-        run: echo "//registry.npmjs.org/:_authToken=" > .npmrc
-
-      - name: Clean npm cache
-        run: npm cache clean --force
-
       - name: Install dependencies
-        run: npm install --registry=https://registry.npmjs.org/
+        run: npm ci
 
       - name: Build
         run: npm run build
