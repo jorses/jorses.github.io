@@ -9,12 +9,7 @@ const ProfileSection = () => {
       <Card>
         <CardContent className="pt-6">
           <p className="text-sm">
-            I'm a data science developer and PhD candidate on Computer Science. 
-            My research focuses on Tabular Reasoning through Large Language Models, 
-            and I pair it with 5+ years of practical experience designing, 
-            implementing and delivering data-driven solutions to complex problems
-            in both software engineering and data science.
-          </p>
+I am a Data Scientist, Software Engineer, and PhD candidate in Computer Science. My research specializes in Tabular Reasoning with Large Language Models. In addition, I bring over five years of hands-on experience in designing, implementing, and delivering data-driven solutions to complex challenges across both software engineering and data science          </p>
         </CardContent>
       </Card>
     </div>
