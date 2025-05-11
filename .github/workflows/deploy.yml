@@ -23,9 +23,6 @@ jobs:
       - name: Clear local .npmrc
         run: echo "//registry.npmjs.org/:_authToken=" > .npmrc
 
-      - name: Disable always-auth
-        run: npm config set always-auth false
-
       - name: Clean npm cache
         run: npm cache clean --force
 
