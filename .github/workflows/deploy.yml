@@ -1,5 +1,3 @@
-name: Deploy to GitHub Pages
-
 on:
   push:
     branches: [main]
@@ -21,6 +19,9 @@ jobs:
 
       - name: Remove npm auth token if any
         run: npm config delete //registry.npmjs.org/:_authToken
+
+      - name: Clear local .npmrc
+        run: echo "//registry.npmjs.org/:_authToken=" > .npmrc
 
       - name: Install dependencies
         run: npm install
