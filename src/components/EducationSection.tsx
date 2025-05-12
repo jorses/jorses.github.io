@@ -16,7 +16,7 @@ const EducationSection = () => {
       degree: "MSc in Natural Language Processing",
       specialization: "",
       institution: "Universidad Nacional de Educación a Distancia (UNED)",
-      duration: "2011 - 2013",
+      duration: "2022 - 2023",
       description: "Graduated with distinctions, 9.1/10. MSc Thesis on Synthetic Data Generation for Multiple Choice Question Answering."
     },
     {
