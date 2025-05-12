@@ -8,9 +8,9 @@ const EducationSection = () => {
     {
       degree: "PhD in Artificial Intelligence",
       specialization: "Natural Language Processing",
-      institution: "University of Cardiff",
+      institution: "University of Cardiff | University of Jaén",
       duration: "2023-2026",
-      description: "Thesis: 'Tabular Reasoning Through Large Language Models'. Focused on modernizing the field of Tabular QA by providing benchmarks and a new framework for analyzing tabular data structures in the context of NLP."
+      description: "Thesis: 'Tabular Reasoning Through Large Language Models'. Focused on modernizing the field of Tabular QA by providing benchmarks and a new framework for analyzing tabular data structures in the context of NLP. Advisors: Jose Camacho Collados at University of Cardiff and Eugenio Martínez Cámara, Luis Alfonso Ureña López at University of Jaén."
     },
     {
       degree: "MSc in Natural Language Processing",
