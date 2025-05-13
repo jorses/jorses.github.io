@@ -29,9 +29,9 @@ const Header = () => {
         <div className="flex flex-wrap gap-3 text-sm">
           <a href="mailto:your.email@example.com" className="text-primary hover:underline">jorgeosesgrijalba@gmail.com</a>
           <span className="text-muted-foreground">|</span>
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">github.com/jorses</a>
+          <a href="https://github.com/jorses" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">github.com/jorses</a>
           <span className="text-muted-foreground">|</span>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">linkedin.com/in/jorses</a>
+          <a href="https://linkedin.com/in/jorses" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">linkedin.com/in/jorses</a>
         </div>
       </Card>
     </div>
