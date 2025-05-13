@@ -10,7 +10,14 @@ const EducationSection = () => {
       specialization: "Natural Language Processing",
       institution: "University of Cardiff | University of Jaén",
       duration: "2023-2026",
-      description: "Thesis: 'Tabular Reasoning Through Large Language Models'. Focused on modernizing the field of Tabular QA by providing benchmarks and a new framework for analyzing tabular data structures in the context of NLP. Advisors: Jose Camacho Collados at University of Cardiff and Eugenio Martínez Cámara, Luis Alfonso Ureña López at University of Jaén."
+      description: `
+Thesis: 'Tabular Reasoning Through Large Language Models'. 
+
+Advisors: Jose Camacho Collados at University of Cardiff and Eugenio Martínez Cámara, Luis Alfonso Ureña López at University of Jaén.
+
+Focused on modernizing the field of Tabular Reasoning by providing benchmarks and a new framework for analyzing tabular data structures in the context of NLP. See more in my publications and projects sections.
+
+`
     },
     {
       degree: "MSc in Natural Language Processing",
@@ -46,7 +53,7 @@ const EducationSection = () => {
                 </div>
                 <span className="text-sm text-muted-foreground">{edu.duration}</span>
               </div>
-              <p className="text-sm mt-2">{edu.description}</p>
+              <p className="text-sm whitespace-pre-line mt-2">{edu.description}</p>
             </CardContent>
           </Card>
         ))}
