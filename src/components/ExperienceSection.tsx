@@ -13,9 +13,11 @@ const ExperienceSection = () => {
       logo: "/logos/graphext.png", // Updated path for production
       description: `
 Developed and automated data analysis procedures within the platform, covering a range of use cases including natural language processing (e.g. topic modeling), churn prediction, lead scoring, and other predictive models. 
+Enhanced graph visualization by leveraging RandomForest tree embeddings in a semi-supervised learning framework. 
 
-Enhanced graph visualization by leveraging RandomForest tree embeddings in a semi-supervised learning framework. Designed and implemented LLM-powered features, such as chat-to-data interfaces and custom code generation tools, enabling users to interact with the platform through natural language instead of code. These AI agents empowered users to perform any natively supported feature—from simple visual adjustments to complex workflows like topic modeling and predictive model deployment—without writing code Built and deployed scalable LLM-based functions for processing large datasets using customizable AI agents configured by the user. 
+Designed and implemented LLM-powered features, such as chat-to-data interfaces and custom code generation tools, enabling users to interact with the platform through natural language instead of code. These AI agents empowered users to perform any natively supported feature—from simple visual adjustments to complex workflows like topic modeling and predictive model deployment—without writing code.
 
+Built and deployed scalable LLM-based functions for processing large datasets using customizable AI agents configured by the user. 
 These solutions handled datasets with hundreds of millions of rows, utilizing parallelization, concurrency, and advanced prompting techniques. The AI agents could execute these functions directly, significantly streamlining the end-to-end data analysis workflow.`
     },
     {
