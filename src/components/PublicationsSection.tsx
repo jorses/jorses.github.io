@@ -21,7 +21,16 @@ const PublicationsSection = () => {
       link: "http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6617",
       logo: "/logos/sepln.png",
       description: "This study explores quality benchmarking for question answering over tabular data in Spanish, providing insights into model performance."
+    },
+    {
+      title: "SemEval 2025 Task 8: Question Answering over Tabular Data",
+      journal: "Association for Computational Linguistics (ACL)",
+      year: "2025",
+      link: "https://github.com/jorses/semeval-2025-t8/blob/main/Semeval_2025_Databench_task_paper.pdf",
+      logo: "/logos/acl.jpg",
+      description: "This study goes over the different systems submitted to the SemEval 2025 Task 8, providing a comprehensive overview of the task and its results."
     }
+
   ];
 
   return (
