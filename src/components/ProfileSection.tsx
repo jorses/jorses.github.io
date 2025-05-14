@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 const ProfileSection = () => {
   return (
     <div className="section-container">
-      <h3 className="section-title">Profile</h3>
+      <h3 className="section-title">Bio</h3>
       <Card>
         <CardContent className="pt-6">
           <p className="text-sm">

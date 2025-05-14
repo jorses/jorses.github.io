@@ -1,7 +1,8 @@
-
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
+import CollapsibleCardContent from "@/components/ui/CollapsibleCardContent";
 import { Briefcase } from 'lucide-react';
+import ShowMoreText from "@/components/ui/ShowMoreText";
 
 const ExperienceSection = () => {
   const experiences = [
@@ -9,6 +10,7 @@ const ExperienceSection = () => {
       title: "Senior Data Scientist and Software Developer",
       company: "Graphext",
       duration: "2020-Present",
+      logo: "/logos/graphext.png", // Example logo path
       description: `
 Developed and automated data analysis procedures within the platform, covering a range of use cases including natural language processing (e.g. topic modeling), churn prediction, lead scoring, and other predictive models. 
 
@@ -20,8 +22,8 @@ These solutions handled datasets with hundreds of millions of rows, utilizing pa
       title: "Data Scientist and Software Developer",
       company: "Graphext",
       duration: "2018-2020",
+      logo: "/logos/graphext.png", // Example logo path
       description: `
-
 Designed, developed, and maintained high-performance scraper applications within an Electron.js desktop environment, capable of collecting hundreds of millions of data points from social networks. Integrated proxy management and optimization systems to enhance speed, reliability, and bypass platform restrictions. 
 
 Built robust data pipelines to handle large-scale data ingestion and output between external sources and the platform, ensuring fast, secure, and efficient data transfer and preprocessing. 
@@ -34,25 +36,34 @@ Developed dashboards and visualizations to analyze global target demographics by
       title: "Data Analytics Intern",
       company: "Weplan Analytics",
       duration: "2017-2018",
+      logo: "/logos/weplan.jpeg", // Example logo path
       description: "Built predictive models to profile user behaviour from telecom data using MongoDB."
     }
   ];
 
   return (
-    <div className="section-container">
-      <h3 className="section-title flex items-center gap-2">
-        <Briefcase size={20} />
-        <span>Work Experience</span>
-      </h3>
+    <div className="section-container max-w-4xl mx-auto mt-8">
+      {/* Removed section title to avoid repetition with selector bar */}
       <div className="space-y-4">
         {experiences.map((exp, index) => (
           <Card key={index}>
             <CardContent className="pt-6">
-              <div className="flex flex-col md:flex-row md:justify-between mb-2">
-                <h4 className="font-medium">{exp.title} | {exp.company}</h4>
-                <span className="text-sm text-muted-foreground">{exp.duration}</span>
+              <div className="flex items-start gap-4 w-full mb-2">
+                {exp.logo && (
+                  <img src={exp.logo} alt={exp.company + ' logo'} className="w-16 h-16 object-contain rounded bg-white border shrink-0 mt-1" />
+                )}
+                <div className="flex flex-col w-full">
+                  <div className="flex flex-col md:flex-row md:justify-between w-full mb-2">
+                    <h4 className="font-medium">{exp.title} | {exp.company}</h4>
+                    <span className="text-sm text-muted-foreground md:text-right">{exp.duration}</span>
+                  </div>
+                  {exp.description.trim().split(/\n\s*\n/).length > 1 ? (
+                    <div className="mt-3"><ShowMoreText text={exp.description} /></div>
+                  ) : (
+                    <p className="text-sm whitespace-pre-line mt-3">{exp.description}</p>
+                  )}
+                </div>
               </div>
-              <p className="text-sm whitespace-pre-line">{exp.description}</p>
             </CardContent>
           </Card>
         ))}

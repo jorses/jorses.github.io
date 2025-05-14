@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 import { Award, Languages } from 'lucide-react';
@@ -31,7 +30,7 @@ const SkillsSection = () => {
       <div className="section-container">
         <h3 className="section-title flex items-center gap-2">
           <Award size={20} />
-          <span>Skills</span>
+          <span>Tech Stack</span>
         </h3>
         <Card>
           <CardContent className="pt-6">
@@ -43,7 +42,6 @@ const SkillsSection = () => {
                 ))}
               </div>
             </div>
-            
             <div className="mb-4">
               <h4 className="text-sm font-medium mb-2">Frameworks & Libraries</h4>
               <div className="flex flex-wrap gap-2">
@@ -52,7 +50,6 @@ const SkillsSection = () => {
                 ))}
               </div>
             </div>
-            
             <div className="mb-4">
               <h4 className="text-sm font-medium mb-2">Tools & Platforms</h4>
               <div className="flex flex-wrap gap-2">
@@ -61,7 +58,6 @@ const SkillsSection = () => {
                 ))}
               </div>
             </div>
-            
             <div>
               <h4 className="text-sm font-medium mb-2">Domains & Expertise</h4>
               <div className="flex flex-wrap gap-2">
@@ -73,7 +69,6 @@ const SkillsSection = () => {
           </CardContent>
         </Card>
       </div>
-      
       <div className="section-container">
         <h3 className="section-title flex items-center gap-2">
           <Languages size={20} />
