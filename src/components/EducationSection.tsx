@@ -25,7 +25,7 @@ Focused on modernizing the field of Tabular Reasoning by providing benchmarks an
       specialization: "",
       institution: "UNED",
       duration: "2022 - 2023",
-      logo: "/logos/uned.jpg", // Example logo path
+      logo: "/logos/uned.jpg", // Updated path for production
       description: "Graduated with distinctions, 9.1/10. MSc Thesis on Synthetic Data Generation for Multiple Choice Question Answering."
     },
     {
@@ -33,7 +33,7 @@ Focused on modernizing the field of Tabular Reasoning by providing benchmarks an
       specialization: "Algorithms and Data Structures",
       institution: "UCM",
       duration: "2014-2019",
-      logo: "/logos/ucm.jpg", // Example logo path
+      logo: "/logos/ucm.jpg", // Updated path for production
       description: "Highly competitive program resulting in two four-years Bachelor degrees."
     }
   ];

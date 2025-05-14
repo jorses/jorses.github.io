@@ -12,7 +12,7 @@ const ProjectsSection = () => {
       link: "https://huggingface.co/datasets/cardiffnlp/databench",
       type: "huggingface",
       duration: "2020 - Present",
-      logo: "/logos/huggingface.png"
+      logo: "/logos/huggingface.png" // Updated path for production
     },
     {
       title: "DataBenchSPA",
@@ -20,7 +20,7 @@ const ProjectsSection = () => {
       link: "https://huggingface.co/datasets/SINAI/databenchSPA",
       type: "huggingface",
       duration: "2021 - Present",
-      logo: "/logos/huggingface.png"
+      logo: "/logos/huggingface.png" // Updated path for production
     },
     {
       title: "ACL 2025 - SemEval Task 8: Question Answering over Tabular Data",
@@ -28,7 +28,7 @@ const ProjectsSection = () => {
       link: "https://www.codabench.org/competitions/3360/",
       type: "huggingface",
       duration: "2025",
-      logo: "/logos/acl.jpg"
+      logo: "/logos/acl.jpg" // Updated path for production
     }
   ];
 

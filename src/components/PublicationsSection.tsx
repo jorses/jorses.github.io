@@ -11,7 +11,7 @@ const PublicationsSection = () => {
       journal: "International Conference on Computational Linguistics (LREC-COLING)",
       year: "2024",
       link: "https://aclanthology.org/2024.lrec-main.1179/",
-      logo: "/logos/coling.jpg",
+      logo: "/logos/coling.jpg", // Updated path for production
       description: "This paper presents a comprehensive evaluation of large language models in question answering over tabular data using the DataBench benchmark."
     },
     {

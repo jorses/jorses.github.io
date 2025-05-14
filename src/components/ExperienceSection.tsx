@@ -10,7 +10,7 @@ const ExperienceSection = () => {
       title: "Senior Data Scientist and Software Developer",
       company: "Graphext",
       duration: "2020-Present",
-      logo: "/logos/graphext.png", // Example logo path
+      logo: "/logos/graphext.png", // Updated path for production
       description: `
 Developed and automated data analysis procedures within the platform, covering a range of use cases including natural language processing (e.g. topic modeling), churn prediction, lead scoring, and other predictive models. 
 
@@ -22,7 +22,7 @@ These solutions handled datasets with hundreds of millions of rows, utilizing pa
       title: "Data Scientist and Software Developer",
       company: "Graphext",
       duration: "2018-2020",
-      logo: "/logos/graphext.png", // Example logo path
+      logo: "/logos/graphext.png", // Updated path for production
       description: `
 Designed, developed, and maintained high-performance scraper applications within an Electron.js desktop environment, capable of collecting hundreds of millions of data points from social networks. Integrated proxy management and optimization systems to enhance speed, reliability, and bypass platform restrictions. 
 
@@ -36,7 +36,7 @@ Developed dashboards and visualizations to analyze global target demographics by
       title: "Data Analytics Intern",
       company: "Weplan Analytics",
       duration: "2017-2018",
-      logo: "/logos/weplan.jpeg", // Example logo path
+      logo: "/logos/weplan.jpeg", // Updated path for production
       description: "Built predictive models to profile user behaviour from telecom data using MongoDB."
     }
   ];
