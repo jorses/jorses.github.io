@@ -22,7 +22,7 @@ const SkillsSection = () => {
   const languages = [
     { name: "Spanish", proficiency: "Native" },
     { name: "English", proficiency: "Bilingual" },
-    { name: "中文", proficiency: "HSK 4 - Intermediate" },
+    { name: "中文", proficiency: "HSK 4 - Intermediate (read/write)" },
   ];
 
   return (
