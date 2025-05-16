@@ -26,7 +26,7 @@ const SECTIONS = [
   { key: 'projects', label: 'Projects', component: <ProjectsSection /> },
   { key: 'publications', label: 'Research', component: <PublicationsSection /> },
   { key: 'skills', label: 'Skills', component: <SkillsSection /> },
-  { key: 'cv', label: 'CV', component: <CVSection /> },
+  { key: 'cv', label: 'Resume', component: <CVSection /> },
 ];
 
 const MainSectionsSwitcher = () => {
