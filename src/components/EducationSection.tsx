@@ -12,7 +12,7 @@ const EducationSection = () => {
       duration: "2023-2026",
       logo: "/logos/cardiff.png", // Example logo path
       description: `
-Thesis: 'Tabular Reasoning Through Large Language Models'. 
+Thesis: Tabular Reasoning Through Large Language Models. 
 
 Advisors: Jose Camacho Collados at University of Cardiff and Eugenio Martínez Cámara, Luis Alfonso Ureña López at University of Jaén.
 
