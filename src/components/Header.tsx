@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card } from "@/components/ui/card";
 import { User } from 'lucide-react';
@@ -20,13 +19,13 @@ const Header = () => {
           </AvatarFallback>
         </Avatar>
       </div>
-      <Card className="flex-1 p-6">
+      <Card className="flex-1 p-6 text-center sm:text-left">
         <h1 className="text-3xl font-bold mb-1">Jorge Osés Grijalba</h1>
         <h2 className="text-xl text-muted-foreground mb-4">Senior Data Science Developer</h2>
         <p className="text-sm text-muted-foreground mb-4">
           I like building stuff.
         </p>
-        <div className="flex flex-wrap gap-3 text-sm">
+        <div className="flex flex-wrap gap-3 text-sm justify-center sm:justify-start">
           <a href="mailto:your.email@example.com" className="text-primary hover:underline">jorgeosesgrijalba@gmail.com</a>
           <span className="text-muted-foreground">|</span>
           <a href="https://github.com/jorses" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">github.com/jorses</a>
