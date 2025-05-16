@@ -37,20 +37,28 @@ const MainSectionsSwitcher = () => {
     <div className="max-w-4xl mx-auto px-4 pt-10">
       <Header />
       <ProfileSection />
-      <nav className="w-full flex justify-center border-b border-border mb-8 bg-background sticky top-0 z-20 shadow-sm">
-        <div className="flex flex-wrap gap-2 py-3 items-center justify-center w-full">
-          <div className="flex gap-2">
-            {SECTIONS.map(section => (
-              <Button
-                key={section.key}
-                variant={active === section.key ? 'default' : 'ghost'}
-                className="px-5 py-2 text-base font-medium rounded-full transition-all"
-                onClick={() => setActive(section.key)}
-              >
-                {section.label}
-              </Button>
-            ))}
-          </div>
+      <nav
+        className="w-full flex justify-center border-b border-border mb-8 bg-background sticky top-0 z-20 shadow-sm"
+        style={{ WebkitOverflowScrolling: 'touch' }}
+      >
+        <div
+          className="flex flex-wrap md:flex-nowrap gap-2 py-3 items-center justify-center w-full min-w-0 px-2 overflow-x-auto scrollbar-none"
+          style={{
+            overflowX: 'auto',
+            msOverflowStyle: 'none',
+            scrollbarWidth: 'none',
+          }}
+        >
+          {SECTIONS.map(section => (
+            <Button
+              key={section.key}
+              variant={active === section.key ? 'default' : 'ghost'}
+              className="px-3 py-2 text-[clamp(0.9rem,2.5vw,1.05rem)] font-medium rounded-full transition-all whitespace-nowrap flex-shrink-0 min-w-[90px] md:min-w-[120px] md:px-5 md:py-2"
+              onClick={() => setActive(section.key)}
+            >
+              {section.label}
+            </Button>
+          ))}
         </div>
       </nav>
       <div>

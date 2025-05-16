@@ -39,26 +39,24 @@ Focused on modernizing the field of Tabular Reasoning by providing benchmarks an
   ];
 
   return (
-    <div className="section-container max-w-4xl mx-auto mt-8">
-      {/* Removed section title to avoid repetition with selector bar */}
+    <div className="section-container max-w-4xl mx-auto mt-8 p-0 sm:p-0">
       <div className="space-y-4">
         {education.map((edu, index) => (
           <Card key={index}>
-            <CardContent className="pt-6">
-              <div className="flex items-start gap-4 w-full mb-2">
+            <CardContent className="pt-4 sm:pt-6">
+              <div className="flex flex-col sm:flex-row items-start gap-3 sm:gap-4 w-full mb-2">
                 {edu.logo && (
-                  <img src={edu.logo} alt={edu.institution + ' logo'} className="w-16 h-16 object-contain rounded bg-white border shrink-0 mt-1" />
+                  <img src={edu.logo} alt={edu.institution + ' logo'} className="w-14 h-14 sm:w-16 sm:h-16 object-contain rounded bg-white border shrink-0 mt-1" />
                 )}
                 <div className="flex flex-col w-full">
-                  <div className="flex flex-col md:flex-row md:justify-between w-full mb-2">
-                    <h4 className="font-medium">{edu.degree} | {edu.institution}</h4>
-                    <span className="text-sm text-muted-foreground md:text-right">{edu.duration}</span>
+                  <div className="flex flex-col sm:flex-row sm:justify-between w-full mb-2">
+                    <h4 className="font-medium text-base sm:text-lg">{edu.degree} | {edu.institution}</h4>
+                    <span className="text-sm text-muted-foreground sm:text-right mt-1 sm:mt-0">{edu.duration}</span>
                   </div>
-                  {/* Add more space between title/duration and description */}
                   {edu.description.trim().split(/\n\s*\n/).length > 1 ? (
-                    <div className="mt-3"><ShowMoreText text={edu.description} /></div>
+                    <div className="mt-2 sm:mt-3"><ShowMoreText text={edu.description} /></div>
                   ) : (
-                    <p className="text-sm whitespace-pre-line mt-3">{edu.description}</p>
+                    <p className="text-sm whitespace-pre-line mt-2 sm:mt-3">{edu.description}</p>
                   )}
                 </div>
               </div>
