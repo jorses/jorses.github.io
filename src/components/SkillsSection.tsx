@@ -12,7 +12,7 @@ const SkillsSection = () => {
       "PyTorch", "PyArrow", "TensorFlow", "scikit-learn", "Pandas", "NumPy", "React", "Node.js", "Electron"
     ],
     tools: [
-      "Git", "Docker", "AWS", "Azure", "GCP", "Kubernetes"
+      "Git", "Docker", "dbt", "AWS", "Azure", "GCP", "Kubernetes", "Snowflake"
     ],
     other: [
       "Machine Learning", "Deep Learning", "NLP", "Computer Vision", "Data Visualization", "Statistical Analysis"
