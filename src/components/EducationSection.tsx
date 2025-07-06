@@ -10,7 +10,7 @@ const EducationSection = () => {
       specialization: "Natural Language Processing",
       institution: "University of Cardiff | University of Jaén",
       duration: "2023-2026",
-      logo: "/logos/cardiff.png", // Example logo path
+      logo: "/logos/joint.png", // Example logo path
       description: `
 Thesis: Tabular Reasoning Through Large Language Models. 
 
