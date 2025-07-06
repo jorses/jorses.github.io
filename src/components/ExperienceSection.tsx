@@ -7,9 +7,16 @@ import ShowMoreText from "@/components/ui/ShowMoreText";
 const ExperienceSection = () => {
   const experiences = [
     {
+      title: "Senior Data Scientist",
+      company: "Law Business Research",
+      duration: "2025-Present",
+      logo: "/logos/lbr.png", // Updated path for production
+      description: ``    
+    },
+    {
       title: "Senior Data Scientist and Software Developer",
       company: "Graphext",
-      duration: "2020-Present",
+      duration: "2020-2025",
       logo: "/logos/graphext.png", // Updated path for production
       description: `
 Developed and automated data analysis procedures within the platform, covering a range of use cases including natural language processing (e.g. topic modeling), churn prediction, lead scoring, and other predictive models. 
